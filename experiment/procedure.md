@@ -1,9 +1,6 @@
-# Procedure: Drone is Not Responding – II
+### Motor Issues
 
-
-## Motor Issues
-
-### Check Physical Damage
+#### Check Physical Damage
 #### Steps
 - Disconnect the drone from the power source by unplugging the **dean plug**.  
 - Disconnect the motor from the ESC by detaching the **yellow**, **black**, and **red wires** one by one from the motor arm.  
@@ -14,7 +11,7 @@
 - Reattach all motor wires to the ESC and turn off the multimeter.  
 
 
-### Check Connections
+#### Check Connections
 #### Steps
 - Disconnect the drone from the power source by unplugging the **dean plug**.  
 - Click on the frame arm to zoom in and flip it to make connections visible.  
@@ -24,9 +21,9 @@
 
 ---
 
-## ESC Issues
+### ESC Issues
 
-### Check Physical Damage
+#### Check Physical Damage
 #### Steps
 - Disconnect the drone from the power source by unplugging the **dean plug**.  
 - Zoom in on the frame arm to view the **front and back of the ESC**.  
@@ -36,7 +33,7 @@
 - Similarly check all remaining ESCs.  
 
 
-### Check Connections
+#### Check Connections
 #### Steps
 - Disconnect the drone from the power source by unplugging the **dean plug**.  
 - Remove the **GPS**, **battery**, and **upper plate** to access the ESC wiring.  

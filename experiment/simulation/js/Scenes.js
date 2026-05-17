@@ -437,7 +437,7 @@ const Scenes = {
     () => {
       Layout.ProgressBar.hideTopProgressBar();
       Scenes.StepProcess.start();
-      Scenes.experimentHeading("Drone is not responding – II");
+      Scenes.experimentHeading("Drone Repairing and Maintenance - II");
 
       Util.setCC("...")
 
