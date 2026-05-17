@@ -62,6 +62,10 @@ class Dom {
     this.item.style.opacity = val;
     return this;
   }
+  cursor(val = "pointer") {
+    this.item.style.cursor = val;
+    return this;
+  }
   rotate(deg) {
     this.item.style.transform = `rotate(${deg}deg)`;
     return this;
@@ -236,7 +240,8 @@ class Dom {
     connectingElement,
     direction,
     arrowLeft = null,
-    arrowTop = null
+    arrowTop = null,
+    cursorPointer = true
   ) {
     let blinkArrow = new Dom(".blinkArrowRed");
     let arrowHeight = 40;
@@ -297,6 +302,12 @@ class Dom {
 
     blinkArrow.set(arrowLeft, arrowTop, arrowHeight, arrowWidth).rotate(arrowRotate).zIndex(10000);
     let y = 20;
+
+    if(cursorPointer){
+      connectingElement.styles({
+        cursor: "pointer",
+      });
+    }
 
     var blink = anime({
       targets: blinkArrow.item,

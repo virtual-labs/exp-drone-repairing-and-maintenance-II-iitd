@@ -31,6 +31,11 @@ const Events = {
         }
       });
     },
+    unbindAllEvents(){
+      Util.get(".btn-next").removeEventListener("click", Scenes.next);
+      Util.get(".btn-back").removeEventListener("click", Scenes.back);
+      Util.get(".btn-save").removeEventListener("click", window.print);
+    }
   };
   Events.bind();
 
